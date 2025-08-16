@@ -1,0 +1,41 @@
+baseURL: "https://ehablog.pages.dev/"
+languageCode: "en-us"
+title: "Ehab's blog"
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Hello!"
+  mainMenu: true
+
+# defaultContentLanguage: en
+# defaultContentLanguageInSubdir: true
+#
+# languages:
+#   en:
+#     languageName: English
+#     weight: 1
+#     contentDir: content/en
+#   ru:
+#     languageName: Русский
+#     weight: 2
+#     contentDir: content/ru
+
+menu:
+  main:
+    - identifier: home
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: tags
+      name: "Tags"
+      url: "/tags/"
+      weight: 2
+    - identifier: search
+      name: "Search"
+      url: "/search/"
+      weight: 3
+    - identifier: rss
+      name: "RSS"
+      url: "/index.xml"
+      weight: 4
