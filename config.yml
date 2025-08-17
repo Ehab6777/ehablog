@@ -6,20 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: "Hello!"
-  mainMenu: true
-
-# defaultContentLanguage: en
-# defaultContentLanguageInSubdir: true
-#
-# languages:
-#   en:
-#     languageName: English
-#     weight: 1
-#     contentDir: content/en
-#   ru:
-#     languageName: Русский
-#     weight: 2
-#     contentDir: content/ru
+  mainMenu: false
 
 menu:
   main:
@@ -39,3 +26,9 @@ menu:
       name: "RSS"
       url: "/index.xml"
       weight: 4
+
+
+outputs:
+  home:
+    - HTML
+    - RSS

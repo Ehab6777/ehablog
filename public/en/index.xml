@@ -36,5 +36,12 @@
       <guid>http://localhost:1313/en/posts/first-post/</guid>
       <description>This is a short description of my post.</description>
     </item>
+    <item>
+      <title>Love post</title>
+      <link>http://localhost:1313/en/posts/love-post/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/love-post/</guid>
+      <description>This is a short description of my post.</description>
+    </item>
   </channel>
 </rss>
